@@ -1,0 +1,144 @@
+/*home page*/
+
+html {
+    scroll-behavior: smooth;
+}
+
+html, body {
+    height: 100%;
+}
+
+/*body*/
+body {
+    padding: 0;
+    margin: 0;
+    max-width: 2000px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+header {
+    height: 150px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 100%;
+    top: 0;
+    margin-right: 40px;
+}
+
+#logo {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 0 40px;
+    margin-top: auto;
+}
+
+#logo img {
+    height: 100px;
+}
+
+#logo h2 {
+    font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    display: flex;
+    height: 3.125rem;
+    font-size: 3.125rem;
+    margin: 1px 0 0 10px;
+}
+
+nav {
+    padding: 3rem;
+    padding-top: 7rem;
+}
+
+nav ul {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    text-decoration: none;
+}
+
+nav li {
+    margin-right: 2.5rem;
+    font-size: 3rem;
+    font-weight: 600;
+}
+
+nav a:link { 
+    text-decoration: none;
+    color: black; 
+} 
+
+nav a:visited { 
+    text-decoration: none;
+    color: black; 
+} 
+nav a:hover { 
+    text-decoration: none;
+    color: black; 
+} 
+nav a:active { 
+    text-decoration: none;
+    color: black; 
+}
+
+main {
+    display: flex;
+}
+
+main img {
+    max-width: 40%;
+    max-height: 700px;
+    margin: 30px 60px;
+}
+
+.content {
+    max-width: 40rem;
+    max-height: 43.75rem;
+    justify-content:space-between;
+    align-content: center;
+}
+
+h2 {
+    font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    font-size: 3.125rem;
+}
+
+
+.sns-bottons img {
+    height: 5rem;
+    width: 5rem;
+}
+/*
+#logo {
+    display: flex;
+    height: 150px;
+}
+
+nav {
+    display: flex;
+    align-items: center;
+}
+
+.navigation-items {
+    display: flex;
+    list-style: none;
+    padding: 0;
+    align-items: center;
+    margin: 0;
+    margin-left: auto;
+}
+
+
+main {
+    margin-top: 100px;
+}
+
+/*footer */
+
+/*accesibility*/
+
+/* */

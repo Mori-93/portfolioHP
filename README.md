@@ -1,4 +1,4 @@
-# Ichihashi Mori's portfolio webpage
+# Ichihashi Mori's Portfolio webpage
 This repository stores my portfolio webpage. As a beginner programmer the contents are in progress. 
 many features of the portfolio are placeholders and are empty for the moment.
 
